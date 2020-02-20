@@ -31,7 +31,7 @@
 
   "require": {
     "php": ">=5.5",
-    "serps/core": "~0.2.0|~0.3.0"
+    "serps/core": "dev-master#66d7648fa018df249f99cea393c14a50d6a62660"
   },
 
   "scripts": {
@@ -55,5 +55,11 @@
     "branch-alias": {
       "dev-master": "0.2.*-dev"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/kurorido/core.git"
+    }
+  ]
 }
